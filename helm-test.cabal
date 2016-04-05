@@ -1,0 +1,29 @@
+name: helm-test
+version: 0.0.1
+synopsis: Blah
+description: Blah
+homepage: blah
+bug-reports: blah
+license: MIT
+license-file: LICENSE
+extra-source-files: LICENSE, README.md
+author: Sean Seefried
+maintainer: sean.seefried@gmail.com
+copyright: (c) 2013-2014, Sean Seefried
+category: Game Engine, FRP
+build-type: Simple
+cabal-version: >=1.10
+
+source-repository head
+  type: git
+  location: git://github.com/switchface/helm.git
+
+executable helm-test
+  hs-source-dirs: .
+  main-is: Main.hs
+  default-language: Haskell2010
+  ghc-options: -O2 -threaded -rtsopts -Wall
+  build-depends: base
+               , cairo
+               , helm
+
