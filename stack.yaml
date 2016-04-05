@@ -3,11 +3,10 @@ flags: {}
 packages:
 - .
 - location:
-    git: file:///Users/sseefried/code/forked-git/helm
-    commit: 01d207616fb0e9c098a47590600a7751d4db5062
+    git: https://github.com/sseefried/helm.git
+    commit: e9947c6f627c075702fecf0e5d6b5f22f4cfbc73
 - location:
-    git: file:///Users/sseefried/code/forked-git/hsSDL2
-
+    git: https://github.com/sseefried/hsSDL2
     commit: 3310dc870d840d18e81153fccc71dab4ed97f932
 - location:
     git: https://github.com/sseefried/hs-cairo
